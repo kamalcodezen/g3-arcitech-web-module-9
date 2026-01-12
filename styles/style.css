@@ -17,7 +17,7 @@
 
 /* ---------------shared style style---------- */
 .container {
-    width: min(90%, 1440px);
+    width: min(95%, 1440px);
     margin: 0 auto;
     padding-inline: 1rem;
 }
@@ -45,7 +45,7 @@
 /*=============header style area start=========== */
 /* ------navbar style start ----- */
 .navbar {
-    padding-top: 2.1rem;
+    padding-block: 2rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -57,10 +57,68 @@
 
 .navbar .nav-link {
     text-decoration: none;
-    margin-right: 2.5rem;
+    margin-left: 2.5rem;
     font-weight: 500;
 }
 
-/* ------navbar style end----- */
+.navbar .brand {
+    font-size: clamp(1.75rem, 4vw, 2.4rem);
+    font-style: 700;
+}
 
+.navbar a {
+    font-size: 1.125rem;
+}
+
+/* ------navbar style end----- */
+/* -----===header style start===---- */
+
+.banner-container {
+    text-align: center;
+}
+
+.banner-container .banner-content {
+    max-width: 862px;
+    width: 100%;
+    padding-top: clamp(3rem, 8vw, 4rem);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-container .banner-content h2 {
+    font-size: clamp(2.1rem, 4vw, 4rem);
+    font-weight: bold;
+    margin-bottom: 1.7rem;
+}
+
+.banner-container .banner-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    margin-bottom: clamp(1.25rem, 2.5vw, 2rem);
+}
+
+.banner-content .banner-btn {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 1.25rem 1.5rem;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 144, 14, 1);
+}
+
+.banner-container .banner-img {
+    max-width: 1440px;
+    margin: 3rem auto 0;
+}
+
+.banner-container .banner-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* -----===header style end===---- */
 /*=============header style area end=========== */
