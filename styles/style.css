@@ -17,13 +17,18 @@
 
 /* ---------------shared style style---------- */
 .container {
-    width: min(95%, 1440px);
+    width: min(100%, 1440px);
     margin: 0 auto;
     padding-inline: 1rem;
 }
 
 .display-flex {
     display: flex;
+}
+
+/* yellow primary */
+.text-primary {
+    color: rgba(255, 144, 14, 1);
 }
 
 /* dark 03 color */
@@ -41,7 +46,22 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+.primary-btn {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 1.25rem 1.5rem;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 144, 14, 1);
+}
+
+.teams {
+    margin-bottom: clamp(3rem, 9vw, 7rem);
+}
+
 /* ---------------shared style end---------- */
+
 /*=============header style area start=========== */
 /* ------navbar style start ----- */
 .navbar {
@@ -71,7 +91,7 @@
 }
 
 /* ------navbar style end----- */
-/* -----===header style start===---- */
+/* -----===banner style start===---- */
 
 .banner-container {
     text-align: center;
@@ -98,15 +118,7 @@
     margin-bottom: clamp(1.25rem, 2.5vw, 2rem);
 }
 
-.banner-content .banner-btn {
-    font-size: 1.25rem;
-    font-weight: 500;
-    padding: 1.25rem 1.5rem;
-    color: white;
-    border-radius: 8px;
-    border: none;
-    background-color: rgba(255, 144, 14, 1);
-}
+/* ----brn already define shared style--- */
 
 .banner-container .banner-img {
     max-width: 1440px;
@@ -120,5 +132,55 @@
     object-fit: cover;
 }
 
-/* -----===header style end===---- */
+/* -----===banner style end===---- */
 /*=============header style area end=========== */
+
+/* --====main area style start===--- */
+
+/* ------=====feature style start======---- */
+.teams {
+    padding-top: clamp(3.7rem, 7vw, 5rem);
+
+}
+
+.teams-container {
+    align-items: center;
+    padding-inline: 4rem;
+}
+
+.teams-container .teams-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-container .teams-img img {
+    max-width: 340px;
+    width: 100%;
+    height: auto;
+
+}
+
+.teams-container .feature-content {
+    max-width: 537px;
+    width: 100%;
+    padding-left: clamp(2rem, 3vw, 4rem);
+}
+
+.feature-content .feature-title {
+    font-size: clamp(1.5rem, 3vw, 2.8rem);
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+}
+
+#quick-list {
+    font-weight: 500;
+}
+
+.feature-content p {
+    font-weight: 1.7rem;
+    margin-bottom: 1.8rem;
+}
+
+/* ------=====feature style start======---- */
+/* --====main area style end===--- */
