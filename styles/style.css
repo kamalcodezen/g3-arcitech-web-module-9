@@ -145,13 +145,13 @@
 
 .teams-container {
     align-items: center;
-    padding-inline: 4rem;
+    padding-inline: 2rem;
 }
 
 .teams-container .teams-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 
 .teams-container .teams-img img {
@@ -168,7 +168,7 @@
 }
 
 .feature-content .feature-title {
-    font-size: clamp(1.5rem, 3vw, 2.8rem);
+    font-size: clamp(2rem, 3vw, 2.8rem);
     font-weight: 700;
     margin-bottom: 1.8rem;
 }
