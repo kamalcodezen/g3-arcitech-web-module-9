@@ -1,10 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
 .work-sans-font {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------universal selected end----------- */
+
+/* ---------------shared style style---------- */
+.container {
+    width: min(90%, 1440px);
+    margin: 0 auto;
+    padding-inline: 1rem;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* dark 03 color */
+.text-gray {
+    color: #727272;
+}
+
+/* dark 02 */
+.text-light-gray {
+    color: #424242;
+}
+
+/* background color */
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* ---------------shared style end---------- */
+/*=============header style area start=========== */
+/* ------navbar style start ----- */
+.navbar {
+    padding-top: 2.1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-menu {
+    list-style: none;
+
+}
+
+.navbar .nav-link {
+    text-decoration: none;
+    margin-right: 2.5rem;
+    font-weight: 500;
+}
+
+/* ------navbar style end----- */
+
+/*=============header style area end=========== */
