@@ -9,13 +9,17 @@
         gap: 1rem;
     }
 
-    .teams-container .feature-content {
+    .teams-container .teams-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .teams-container .teams-content {
         padding-top: 1.4rem;
         text-align: center;
         padding-left: 1px;
     }
 
-    .teams-container .feature-content .text-gray {
+    .teams-container .teams-content .text-gray {
         margin-bottom: 1.5rem;
     }
 
@@ -28,7 +32,7 @@
 }
 
 @media screen and (max-width:992px) {
-    .teams-container .feature-content .text-gray {
+    .teams-container .teams-content .text-gray {
         margin-bottom: 1.5rem;
     }
 

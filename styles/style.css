@@ -17,9 +17,8 @@
 
 /* ---------------shared style style---------- */
 .container {
-    width: min(98%, 1440px);
+    width: min(90%, 1440px);
     margin: 0 auto;
-    padding-inline: 1rem;
 }
 
 .section-heading {
@@ -176,7 +175,7 @@
 
 }
 
-.teams-container .feature-content {
+.teams-container .teams-content {
     max-width: 537px;
     width: 100%;
     padding-left: clamp(2rem, 3vw, 4rem);
@@ -186,9 +185,9 @@
     font-weight: 500;
 }
 
-.feature-content p {
+.teams-content p {
     font-weight: 1.7rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 2rem;
 }
 
 /* ------=====feature style start======---- */
@@ -337,15 +336,15 @@ footer {
 }
 
 footer .footer-container {
-   justify-content: center;
+    justify-content: center;
     padding: clamp(1.5rem, 3vw, 2.5rem);
-     text-align: center;
+    text-align: center;
 }
 
 footer .footer-container p {
-    padding: clamp(1.5rem, 3vw, 2.5rem) auto;
+    padding-block: clamp(1.5rem, 3vw, 2.5rem);
     font-size: 1.25rem;
-  
+
 }
 
 /* -------footer style end------- */
