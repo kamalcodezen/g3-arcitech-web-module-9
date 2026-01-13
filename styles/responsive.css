@@ -1,3 +1,39 @@
+/* Laptop */
+@media screen and (max-width: 1199px) {
+    .feature-container {
+        gap: clamp(1.2rem, 3vw, 8rem);
+    }
+
+    #experience-badge {
+        bottom: -6.2rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    .teams-container .teams-content .text-gray {
+        margin-bottom: 1.5rem;
+    }
+
+    .feature-container {
+        flex-direction: column;
+    }
+
+    #experience-badge {
+        bottom: -3.2rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .some-fact-container .fact-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+}
 /* ======mobile device=====-- */
 @media screen and (max-width:576px) {
 
@@ -23,26 +59,22 @@
         margin-bottom: 1.5rem;
     }
 
-
     #experience-badge {
         bottom: -3.2rem;
         left: 50%;
         transform: translateX(-50%);
     }
-}
 
-@media screen and (max-width:992px) {
-    .teams-container .teams-content .text-gray {
-        margin-bottom: 1.5rem;
-    }
-
-    .feature-container {
-        flex-direction: column;
-    }
-
-    #experience-badge {
-        bottom: -3.2rem;
-        left: 50%;
-        transform: translateX(-50%);
+    .some-fact-container .fact-card {
+        grid-template-columns: 1fr;
     }
 }
+    /* .some-fact {
+    padding-top: 0rem;
+} */
+
+    /* Desktop */
+    @media screen and (max-width: 1399px) {}
+
+    /* Large Desktop */
+    @media screen and (min-width: 1400px) {}

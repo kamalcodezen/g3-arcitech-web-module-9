@@ -71,7 +71,7 @@
 .feature,
 .some-fact,
 .sponsors {
-    margin-bottom: clamp(3rem, 9vw, 6.2rem);
+    margin-bottom: clamp(4rem, 9vw, 6.2rem);
 }
 
 /* ---------------shared style end---------- */
@@ -204,7 +204,7 @@
 }
 
 .feature-card .feature-title {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -265,10 +265,9 @@
 
 .some-fact-container .fact-card {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: clamp(1.5rem, 8.6vw, 7.75rem);
-    /* align-items: center;
-    justify-content: space-between; */
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
+    gap: clamp(1.5rem, 4vw, 7.75rem);
     padding-inline: 2rem;
 
 }
@@ -344,4 +343,5 @@ footer .footer-container p {
     padding-block: clamp(1.5rem, 3vw, 2.5rem);
     font-size: 1.25rem;
 }
+
 /* -------footer style end------- */
