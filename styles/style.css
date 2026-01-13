@@ -330,3 +330,22 @@
 
 /* /---=-=== sponsor are style  end-========-=-=-== */
 /* --====main area style end===--- */
+
+/* -------footer style start------- */
+footer {
+    margin-bottom: clamp(4rem, 17vw, 15.5rem);
+}
+
+footer .footer-container {
+   justify-content: center;
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+     text-align: center;
+}
+
+footer .footer-container p {
+    padding: clamp(1.5rem, 3vw, 2.5rem) auto;
+    font-size: 1.25rem;
+  
+}
+
+/* -------footer style end------- */
