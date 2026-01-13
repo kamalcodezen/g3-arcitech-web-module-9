@@ -159,7 +159,7 @@
 
 .teams-container {
     align-items: center;
-    padding-inline: 2rem;
+    padding-inline: clamp(1rem, 2.5vw, 2rem);
 }
 
 .teams-container .teams-img {
@@ -337,14 +337,11 @@ footer {
 
 footer .footer-container {
     justify-content: center;
-    padding: clamp(1.5rem, 3vw, 2.5rem);
     text-align: center;
 }
 
 footer .footer-container p {
     padding-block: clamp(1.5rem, 3vw, 2.5rem);
     font-size: 1.25rem;
-
 }
-
 /* -------footer style end------- */
