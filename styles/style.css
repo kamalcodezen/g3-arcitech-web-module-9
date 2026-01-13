@@ -68,6 +68,7 @@
 }
 
 .teams,
+.feature,
 .some-fact,
 .sponsors {
     margin-bottom: clamp(3rem, 9vw, 6.2rem);
@@ -114,7 +115,6 @@
 .banner-container .banner-content {
     max-width: 862px;
     width: 100%;
-
     text-align: center;
     margin: 0 auto;
 }
@@ -191,7 +191,36 @@
 }
 
 /* ------=====feature style start======---- */
+.feature-container {
+    gap: clamp(1.2rem, 9vw, 8rem);
+    align-items: center;
+}
 
+#feature-section-title {
+    max-width: 408px;
+    width: 100%;
+    padding-left: 1.3rem;
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    
+
+}
+
+.feature-card .feature-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+   
+}
+
+.feature-content .feature-card {
+    padding: 1.9rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.06);
+    margin-bottom: 1.25rem;
+    border-radius: 8px;
+}
+.feature-content .text-gray{
+    margin-bottom: 0px;
+}
 
 /* -----====some fact area style start-----====== */
 /* .some-fact {
