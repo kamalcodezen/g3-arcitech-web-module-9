@@ -17,8 +17,9 @@
 
 /* ---------------shared style style---------- */
 .container {
-    width: min(90%, 1440px);
+    width: min(98%, 1440px);
     margin: 0 auto;
+    padding-inline: 1rem;
 }
 
 .section-heading {
@@ -68,6 +69,7 @@
 }
 
 .teams,
+.feature,
 .some-fact,
 .sponsors {
     margin-bottom: clamp(3rem, 9vw, 6.2rem);
@@ -224,7 +226,11 @@
     font-size: 1.5rem;
     font-weight: 500;
     line-height: clamp(1.5rem, 3vw, 2.5rem);
-    transform: translate(-4.75rem, -6rem);
+    /* transform: translate(-4rem, -6rem); */
+    position: absolute;
+    bottom: -4rem;
+    left: -6rem;
+
 
 }
 
@@ -232,10 +238,27 @@
     font-size: clamp(1.9rem, 2.9vw, 4rem);
 }
 
+.feature-container .feature-img {
+    max-width: 700px;
+    width: 100%;
+    position: relative;
+
+}
+
+.feature-container .feature-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
 /* -----====some fact area style start-----====== */
 /* .some-fact {
     margin-bottom: clamp(2rem, 12vw, 11rem);
 } */
+
+.some-fact {
+    padding-top: 4rem;
+}
+
 .some-fact-content {
     margin-bottom: clamp(2rem, 6.9vw, 6.25rem);
 

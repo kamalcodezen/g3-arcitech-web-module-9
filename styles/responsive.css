@@ -2,6 +2,7 @@
 @media screen and (max-width:576px) {
 
     .teams-container,
+    .feature-container,
     .navbar,
     .nav-menu {
         flex-direction: column;
@@ -11,6 +12,33 @@
     .teams-container .feature-content {
         padding-top: 1.4rem;
         text-align: center;
-        padding-left:1px ;
+        padding-left: 1px;
+    }
+
+    .teams-container .feature-content .text-gray {
+        margin-bottom: 1.5rem;
+    }
+
+
+    #experience-badge {
+        bottom: -3.2rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width:992px) {
+    .teams-container .feature-content .text-gray {
+        margin-bottom: 1.5rem;
+    }
+
+    .feature-container {
+        flex-direction: column;
+    }
+
+    #experience-badge {
+        bottom: -3.2rem;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
